@@ -1,0 +1,170 @@
+body{
+	padding: 0 0 0 0 ;
+	margin:	0 0 0 0;
+
+	background: #F1F1F1;
+}
+
+.Padre1{
+	background: 	#F1F1F1;
+	width: 			100%;
+	height: 		100%;
+
+	flex-direction:	column;
+	display: 		flex;
+
+	margin-top: 	10px;
+	align-items: center;
+}
+
+.imagen{
+	background:		#F1F1F1;
+	margin-left: 	100px;
+	width: 			300px;
+	margin-top: 	10px;
+	margin-right: 	70px;
+	margin-bottom: 	50px;
+	padding: 0 0 0 0;
+	filter: brightness(1.1);
+	mix-blend-mode: multiply;
+
+}
+
+#parrafo{
+	font-size: 		20px;
+	
+	text-align: 	center;
+}
+
+.form{
+	background: 	#FFFFFF;
+	width: 			400px;
+	max-width: 		580px;
+	height: 		370px;
+	max-height: 	400px;
+
+	display: 		flex;
+	flex-flow: 		row wrap;
+	align-items: 	center;
+	align-content: 	center;
+	margin-top: 	50px;
+	margin-left: 	10%;
+
+	border-radius: 10px;
+
+	box-shadow: 0px 0px 9px 3px #E8E1E1;
+}
+#Gm{
+	width: 			350px;
+	height: 		50px;
+	margin-top: 	10px;
+	margin-left: 	10%;
+	margin-right: 	10%;
+	border:			thin solid;
+	border-radius: 	10px;
+	border-color: 	#F1F1F1;
+
+
+}
+
+#Pas{
+	width: 			350px;
+	height: 		50px;
+	margin-top: 	10px;
+	margin-left: 	10%;
+	margin-right: 	10%;
+	border: 		thin solid;
+	border-radius: 	10px;
+	border-color: 	#F1F1F1;
+}
+
+input::placeholder{
+	
+	padding: 10px;
+	font-size: 17px;
+}
+
+#link{
+	margin-left: 120px;
+	margin-top: 10px;
+
+}
+
+#Button{
+	width: 			100%;
+	height: 		50px;
+	margin-top: 	10px;
+	margin-left: 	10%;
+	margin-right: 	10%;
+	border-radius: 	9px;
+	border: none;
+	background: 	#3F95F5;
+	color: white;
+
+	font-size: 20px;
+}
+
+#Button-2{
+	width: 			200px;
+	height: 		50px;
+	margin-top: 	50px;
+	margin-left: 	25%;
+	margin-right: 	25%;
+	border: none;
+	border-radius: 	9px;
+	background: 	#4AC232;
+	color: white;
+	font-size: 18px;
+}
+
+#link{
+	color: #42A2F3;
+	text-decoration-line: none;
+}
+
+hr{
+	height: 01px;
+	width: 90%;
+	background: #F1F1F1;
+}
+
+.parrafo-2{
+	display: 		inline-block;	
+	width: 			350px;
+	text-align: 	center;
+	margin-left:	10%;
+	font-size: 		14px;
+
+}
+.footer-1{
+	background: white;
+	width: 100%;
+	height: 95%;
+	padding-top: 20px;
+	margin-right: 50px;
+	margin-top: 150px;
+	padding-bottom: 20px;
+	float: left;
+	justify-content:flex-start;
+	text-align: left;
+}
+
+.footer-2{
+	padding-left: 60px;
+	padding-right: 20px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 40px;
+
+
+}
+footer{
+	margin-left: 20px;
+}
+
+#facebook{
+	margin-left: 40px;
+}
